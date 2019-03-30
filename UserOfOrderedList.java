@@ -3,8 +3,8 @@ public class UserOfOrderedList {
 
         OrderedList_inArraySlots list = new OrderedList_inArraySlots();
 
-        for( int i = 0; i < 10 ; i++)
-            list.add(10);
+        // for( int i = 0; i < 10 ; i++)
+        //     list.add(10);
         System.out.println( list);
     }
 }

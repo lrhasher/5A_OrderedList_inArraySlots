@@ -26,7 +26,7 @@ public class OrderedList_inArraySlots {
         for(index = (size() / 2) , counter = (((double)size()) / 4); counter < 1 ; counter /= 2) {
             if( val > get( index))
                 index += (int)counter;
-            else
+            else if(val != get( index))
                 index -= (int)counter;
         }
         list.add( index, val);
