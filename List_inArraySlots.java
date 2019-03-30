@@ -60,13 +60,7 @@ public class List_inArraySlots {
       preserving existing data.
      */
      private void expand() {
-        System.out.println( "expand... (for debugging)");
-           /* S.O.P. rules for debugging:
-              Working methods should be silent. But during
-              development, the programmer must verify that
-              this method is called when that is appropriate.
-              So test using the println(), then comment it out.
-              */
+
         int[] bigger = new int[ elements.length * 2];
         for( int elemIndex = 0; elemIndex < filledElements; elemIndex++)
             bigger[ elemIndex] = elements[ elemIndex];
